@@ -1,8 +1,8 @@
 "use Strict";
 //Build a constructor function for Linked Lists
-function LinkedList(){
-
-
+function LinkedList(head,tail){
+	this.head= head;
+	this.tail= tail;
 }
 
 
