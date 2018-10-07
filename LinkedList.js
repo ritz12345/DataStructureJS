@@ -8,10 +8,10 @@ function LinkedList(){
 
 
 //Build a Constucto function for Nodes.
-function Node(value,next,previous){
+function Node(value,nextNode,previousNode){
 	this.value=value;
-	this.next =next;
-	this.previous=previous;
+	this.next =nextNode;
+	this.previous=previousNode;
 }
 LinkedList.prototype.addToHead=function(value){
 	var newNode =new Node(value,this.head,null);
