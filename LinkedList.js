@@ -1,4 +1,4 @@
-"use Strict";
+"use strict";
 //Build a constructor function for Linked Lists
 function LinkedList(head,tail){
 	this.head= head;
